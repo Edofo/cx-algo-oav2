@@ -15,4 +15,4 @@ function bubble(arr) {
     return arr;
 }
 
-console.log(bubble([5, 1, 4, 2, 7 ,8, 9, 0, 6, 3]));
+console.log(bubble([5, 1, 4, 2, 7 ,8, 9, 0, 6, 3, -1]));
