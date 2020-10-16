@@ -12,6 +12,7 @@ function bubble(arr) {
         }
     }
 
+    console.log('Exo 1 :')
     return arr;
 }
 

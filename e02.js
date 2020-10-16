@@ -9,10 +9,12 @@ function sort(arr) {
             arr[a + 1] = arr[a];
             a = a - 1;
         }
+
         arr[a + 1] = key;
     }
+
+    console.log('Exo 2 :')
     return arr;
 };
 
 console.log(sort([5, 1, 4, 2, 7 ,8, 9, 0, 6, 3, -1]));
-
