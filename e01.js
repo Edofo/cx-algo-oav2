@@ -4,15 +4,17 @@ function swap(arr, first, second) {
 
 function bubble(arr) {
 
-    for (let i = 0; i < arr.length; i++) {
-        for(a = 0; a < arr.length-i; a++) {
+    let len = arr.length
+
+    for (let i = 0; i < len; i++) {
+        for(a = 0; a < len-i; a++) {
             if(arr[a] > arr[a+1]) {
                 swap(arr, a, a+1)
             }
         }
     }
 
-    console.log('Exo 1 :')
+    console.log('Exo 1 :');
     return arr;
 }
 

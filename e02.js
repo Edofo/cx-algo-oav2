@@ -1,6 +1,8 @@
-function sort(arr) {
+function insertion(arr) {
 
-    for (let i = 0; i < arr.length; i++) { 
+    let len = arr.length
+
+    for (let i = 0; i < len; i++) { 
 
         let key = arr[i];
         let a = i - 1;
@@ -13,8 +15,8 @@ function sort(arr) {
         arr[a + 1] = key;
     }
 
-    console.log('Exo 2 :')
+    console.log('Exo 2 :');
     return arr;
 };
 
-console.log(sort([5, 1, 4, 2, 7 ,8, 9, 0, 6, 3, -1]));
+console.log(insertion([5, 1, 4, 2, 7 ,8, 9, 0, 6, 3, -1]));
