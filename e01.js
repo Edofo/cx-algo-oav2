@@ -5,7 +5,7 @@ function swap(arr, first, second) {
 function bubble(arr) {
 
     for (let i = 0; i < arr.length; i++) {
-        for(a = 0, stop=arr.length-i; a < stop; a++) {
+        for(a = 0; a < arr.length-i; a++) {
             if(arr[a] > arr[a+1]) {
                 swap(arr, a, a+1)
             }
